@@ -1,7 +1,6 @@
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import useMediaQuery from "../lib/useHooks";
 import Hamburger from "./Hamburger";
 
 export default function Navbar() {

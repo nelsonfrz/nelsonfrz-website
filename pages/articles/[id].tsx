@@ -17,28 +17,28 @@ export default function Article({ article, articles }: { article: Article, artic
       <meta property="og:title" content={article.title} />
     </Head>
     <Layout>
-      <section className="text-center mt-[100px] px-4">
-        <PageHeading>{article.title}</PageHeading>
-        <p className="text-[16px] font-normal text-[#666666]"><Date dateString={article.date} /></p>
-      </section>
-      <section className="max-w-[644px] mx-auto mb-[100px] px-4">
-        <Image src={`/articles/${article.thumbnail}`} className="rounded-2xl mt-10" width={644} height={295} alt="Article Thumbnail" />
-        {(article.thumbnailSourceUrl && article.thumbnailSourceName) &&(
-          <p className="mt-2 mb-5 text-[14px]">Photo from <a href={article.thumbnailSourceUrl} className="text-[#4F46E5] hover:cursor-pointer" target="_blank" rel="noreferrer">{article.thumbnailSourceName}</a></p>
-        )}
-        <div className="h-[1px] max-w-[644px] bg-[#CECECE] mb-5" />
-        <ArticleText content={article.content} />
-      </section>
-      <section>
-        <WaveUp />
-        <div className="w-full py-12 bg-black -mt-2">
-          <div className="mx-auto max-w-[1050px]">
-            <h2 className="text-white font-black text-3xl text-center">You may also like</h2>
-            <ArticlesList className="my-8" articles={articles} />
+        <section className="text-center mt-[100px] px-4">
+          <PageHeading>{article.title}</PageHeading>
+          <p className="text-[16px] font-normal text-[#666666]"><Date dateString={article.date} /></p>
+        </section>
+        <section className="max-w-[644px] mx-auto mb-[100px] px-4">
+          <Image src={`/articles/${article.thumbnail}`} className="rounded-2xl mt-10" width={644} height={295} alt="Article Thumbnail" />
+          {(article.thumbnailSourceUrl && article.thumbnailSourceName) &&(
+            <p className="mt-2 mb-5 text-[14px]">Photo from <a href={article.thumbnailSourceUrl} className="text-[#4F46E5] hover:cursor-pointer" target="_blank" rel="noreferrer">{article.thumbnailSourceName}</a></p>
+          )}
+          <div className="h-[1px] max-w-[644px] bg-[#CECECE] mb-5" />
+          <ArticleText content={article.content} />
+        </section>
+        <section>
+          <WaveUp />
+          <div className="w-full py-12 bg-black -mt-2">
+            <div className="mx-auto max-w-[1050px]">
+              <h2 className="text-white font-black text-3xl text-center">You may also like</h2>
+              <ArticlesList className="my-8" articles={articles} />
+            </div>
+            <SeeAllArticles />
           </div>
-          <SeeAllArticles />
-        </div>
-      </section>
+        </section>
     </Layout></>);
 }
 
