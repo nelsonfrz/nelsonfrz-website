@@ -1,0 +1,123 @@
+.articletext {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color: #374151;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.articletext h1, .articletext h2, .articletext h3, .articletext h4, .articletext h5, .articletext h6 {
+  font-weight: 700;
+  color: #111827;
+}
+
+.articletext h1 {
+  font-size: 30px;
+}
+
+.articletext h2 {
+  font-size: 26px;
+}
+
+.articletext h3 {
+  font-size: 22px;
+}
+
+.articletext h4 {
+  font-size: 20px;
+}
+
+.articletext h5 {
+  font-size: 18px;
+}
+
+.articletext h6 {
+  font-size: 15px;
+}
+
+.articletext a {
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+.articletext a:hover {
+  text-decoration: underline;
+}
+
+.articletext ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.articletext ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.articletext blockquote {
+  background-color: rgb(239, 246, 255);
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.articletext blockquote p {
+  color: rgb(29,78,216);
+  font-weight: 500;
+}
+
+.articletext code {
+  color: #c411e8; 
+  font-weight: 600;
+}
+
+.articletext table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 350px;
+  overflow: hidden;
+}
+
+.articletext table tr th,
+.articletext table tr td {
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding: 5px 10px;
+}
+
+.articletext table tr th:first-child,
+.articletext table tr td:first-child {
+  border-left: 1px solid #bbb;
+}
+
+.articletext table tr th {
+  background: rgb(221, 221, 221);
+  border-top: 1px solid #bbb;
+  text-align: left;
+}
+
+.articletext table tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
+.articletext table tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+.articletext table tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+.articletext table tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+.articletext table tr:nth-child(even) {
+  background: rgb(246, 246, 246);
+}
+
+.articletext img {
+  border-radius: 10px;
+}

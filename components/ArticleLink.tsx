@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ArticleLink({ article }: { article: Article }) {
   return (<>
-    <li className="p-4 max-w-xs h-80 bg-white rounded-xl flex justify-center border-[#C5C5C5] border-[1px] hover:opacity-[97%] transition-opacity duration-[250]">
+    <li className="p-4 max-w-xs h-80 bg-white hover:bg-gray-100 rounded-xl flex justify-center border-[#C5C5C5] border-[1px] transition-all duration-[250]">
       <div className="flex flex-col justify-around">
         <Image className="rounded-xl select-none" width="280" height="183" src={`/articles/${article.thumbnail}`} alt="Article Thumbnail" />
         <div>

@@ -1,5 +1,4 @@
 import Layout from "../components/layout";
-import Image from "next/image";
 import LinkButton from "../components/LinkButton";
 import ArticlesList from "../components/ArticlesList";
 import { getSortedArticlesData } from "../lib/articles";
@@ -9,6 +8,9 @@ import { getSortedProjectsData } from "../lib/projects";
 import SeeAllProjects from "../components/SeeAllProjects"
 import AboutMe from "../components/AboutMe";
 import Head from "next/head";
+import WaveUp from "../components/WaveUp";
+import ArchUp from "../components/ArchUp";
+import ArchDown from "../components/ArchDown";
 
 interface HomeProps {
   articles: Article[],
@@ -33,19 +35,15 @@ export default function Home({ articles, projects }: HomeProps) {
         <LinkButton color="white" className="mt-4 ml-2" url="/projects">View Projects</LinkButton>
       </section>
       <section>
-        <svg className="w-full h-full" width="1440" height="237" viewBox="0 0 1440 237" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M423.706 32.6097C230.34 -24.2912 0 12.997 0 12.997V236H1440V167.477C1440 167.477 1344 70.606 1033.5 117.223C723 163.84 617.071 89.5105 423.706 32.6097Z" fill="black" stroke="black"/>
-        </svg>
-        <div className="w-full bg-black -mt-2 py-8 xl:py-0">
+        <WaveUp />
+        <div className="w-full bg-black py-8 xl:py-0">
           <h2 className="text-white font-black text-5xl text-center">Articles</h2>
           <div className="mx-auto max-w-[1050px]">
             <ArticlesList className="my-8" articles={articles} />
           </div>
           <SeeAllArticles />
         </div>
-        <svg className="w-full h-full" width="1440" height="121" viewBox="0 0 1440 121" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1440 121C873.091 23.5695 557.822 24.0581 0 121V-7.62939e-06H1440V121Z" fill="black"/>
-        </svg>
+        <ArchDown />
       </section>
       <section className="py-8 xl:py-0">
         <h2 className="text-black font-black text-5xl text-center">Projects</h2>
@@ -55,9 +53,7 @@ export default function Home({ articles, projects }: HomeProps) {
         </div>
       </section>
       <section>
-        <svg className="w-full h-full" width="1440" height="121" viewBox="0 0 1440 121" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1440 0C873.091 97.4305 557.822 96.9419 0 0V121H1440V0Z" fill="black"/>
-        </svg>
+        <ArchUp />
         <AboutMe className="-mt-2 pt-8"/>
       </section>
     </Layout>

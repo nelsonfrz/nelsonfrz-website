@@ -1,8 +1,6 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from 'remark';
-import html from 'remark-html';
 
 const projectsDirectory = path.join(process.cwd(), "projects");
 
@@ -21,7 +19,13 @@ export function getSortedProjectsData() {
       ...matterResult.data,
     } as Project);
   });
-  return allProjectsData;
+  return allProjectsData.sort((a: Project, b: Project) => {
+    if (a.date < b.date) {
+      return 1;
+    } else {
+      return -1;
+    }
+  });
 }
 
 export function getAllProjectsIds() {

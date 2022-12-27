@@ -7,6 +7,18 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
+::-moz-selection {
+  background: #7a78ff85;
+}
+
+::selection {
+  background: #7a78ff85;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .text-gradient-purple {
   background: -webkit-linear-gradient(#7B78FF, #4F4DC1);
   background-clip: text;

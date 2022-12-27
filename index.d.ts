@@ -3,13 +3,16 @@ interface Article {
   title: string,
   date: string,
   thumbnail: string,
+  thumbnailSourceUrl: string,
+  thumbnailSourceName: string,
   description: string,
-  contentHtml?: string
+  content: string
 }
 
 interface Project {
   id: string,
   title: string,
+  date: string,
   thumbnail: string,
   view: string,
   github: string,

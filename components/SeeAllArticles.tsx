@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function SeeAllArticles() {
-  return (<div className="flex justify-center">
+  return (<div className="flex justify-center py-1">
     <Link href="/articles">
       <p className="select-none flex items-center text-[#7B78FF] hover:cursor-pointer">
         <span className="mr-1 font-bold text-white">See All Articles</span> 
