@@ -12,9 +12,20 @@ import WaveUp from "../../components/WaveUp";
 export default function Article({ article, articles }: { article: Article, articles: Article[] }) {
   return (<>
     <Head>
-      <title>{article.title}</title>
+      <meta name="title" content={article.title} />
       <meta name="description" content={article.description} />
-      <meta property="og:title" content={article.title} />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={`https://nelsonfrz.vercel.app/articles/${article.id}`} />
+      <meta property="og:title" content={article.title} /> 
+      <meta property="og:description" content={article.description} />
+      <meta property="og:image" content={`https://nelsonfrz.vercel.app/articles/${article.thumbnail}`} />
+
+      <meta property="twitter:card" content="summary_large_image"/>
+      <meta property="twitter:url" content={`https://nelsonfrz.vercel.app/articles/${article.id}`} />
+      <meta property="twitter:title" content={article.title} />
+      <meta property="twitter:description" content={article.description} />
+      <meta property="twitter:image" content={`https://nelsonfrz.vercel.app/articles/${article.thumbnail}`} ></meta>
     </Head>
     <Layout>
         <section className="text-center mt-[100px] px-4">
