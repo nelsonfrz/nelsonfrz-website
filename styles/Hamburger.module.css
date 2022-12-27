@@ -1,0 +1,16 @@
+.hamburger {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10000;
+  cursor: pointer;
+} 
+
+.line {
+  width: 30px;
+  height: 1px;
+  background-color: black;
+  transition: transform 100ms ease-in;
+}
