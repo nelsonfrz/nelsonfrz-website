@@ -34,6 +34,10 @@
   font-size: 15px;
 }
 
+.articletext p {
+  margin-bottom: 10px;
+}
+
 .articletext a {
   color: #4f46e5;
   font-weight: 500;
@@ -46,11 +50,13 @@
 .articletext ol {
   list-style-type: decimal;
   padding-left: 20px;
+  margin: 10px 0 ;
 }
 
 .articletext ul {
   list-style-type: disc;
   padding-left: 20px;
+  margin: 10px 0 ;
 }
 
 .articletext blockquote {
@@ -78,6 +84,7 @@
   border-spacing: 0;
   min-width: 350px;
   overflow: hidden;
+  margin: 10px 0;
 }
 
 .articletext table tr th,
@@ -120,4 +127,5 @@
 
 .articletext img {
   border-radius: 10px;
+  margin: 10px 0;
 }

@@ -20,9 +20,21 @@ interface HomeProps {
 export default function Home({ articles, projects }: HomeProps) {
   return (<>
     <Head>
-      <title>@nelsonfrz</title>
+      <title>@nelsonfrz - Home</title>
+      <meta name="title" content="@nelsonfrz - Home" />
       <meta name="description" content="I&apos;m a 15 year old boy located in Germany with a passion for Web Development. Ocassionally I write articles about Software Engineering, Web Development and anything else." />
-      <meta property="og:title" content="@nelsonfrz" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://nelsonfrz.vercel.app/" />
+      <meta property="og:title" content="@nelsonfrz - Home" /> 
+      <meta property="og:description" content="I&apos;m a 15 year old boy located in Germany with a passion for Web Development. Ocassionally I write articles about Software Engineering, Web Development and anything else." />
+      <meta property="og:image" content="https://i.postimg.cc/ZYVMxRQF/image.png" />
+
+      <meta property="twitter:card" content="summary_large_image"/>
+      <meta property="twitter:url" content="https://nelsonfrz.vercel.app/"/>
+      <meta property="twitter:title" content="@nelsonfrz - Home"/>
+      <meta property="twitter:description" content="I&apos;m a 15 year old boy located in Germany with a passion for Web Development. Ocassionally I write articles about Software Engineering, Web Development and anything else."/>
+      <meta property="twitter:image" content="https://i.postimg.cc/ZYVMxRQF/image.png"></meta>
     </Head>
     <Layout>
       <section className="text-center my-[200px]">

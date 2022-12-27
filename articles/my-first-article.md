@@ -9,36 +9,37 @@ description: 'This is my first article.'
 # Test, Test, 1, 2, 3
 
 Hello and welcome to my first ever article! As the title suggests, this article is purely for testing purposes. I am just getting started as a writer and wanted to practice putting my thoughts into words and sharing them with an audience.
-<br />
-<br />
+
 
 ##   What is this article even about?
 So, what is this article about? Honestly, not much. I just wanted to give a brief introduction to myself and let you know what you can expect from future articles.
-<br />
-<br />
+
 
 ## About Me
 
 As for who I am, I am just a typical programmer. I love developing software and websites like the one *you are reading this on*. You may have seen my [Home page](/) or [About Me page](/about) and already now that I'm 15 years old and live in Germany. 
-<br />
-<br />
+
 
 ## The Future of this Website
 In terms of what you can expect from my future articles, I plan on writing about a wide range of topics including Fullstack Web Development, Software Engineering, and anything else that I want to write about or that I feel would be beneficial for others to read about.
-<br />
-<br />
+
 
 # Conclusion
 So, there you have it, a brief introduction to my first ever article and a glimpse into what you can expect from me in the future. Thank you for taking the time to read and I hope you will enjoy future articles!
-<br />
-<br />
-<br />
-<br />
+
+
 
 # Tests
 You can now stop reading because the rest of the article are just tests for my markup.
 
 ## 1. Text
+___
+# Title
+## Title
+### Title
+#### Title
+##### Title
+###### Title
 ___
 **BOLD**
 ___
@@ -109,14 +110,12 @@ ___
 | Header | Title |
 | Paragraph | Text |
 
-<br/>
 
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
 
-<br/>
 
 | loooooooooooooong | loooooooooooooong | loooooooooooooong | loooooooooooooong | loooooooooooooong | loooooooooooooong |
 | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
