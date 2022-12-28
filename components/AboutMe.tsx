@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function AboutMe({ className }: { className?: string }) {
   return (<div className={`${className} w-full h-[750px] bg-black flex flex-col items-center gap-8`}>
     <h2 className="text-white font-black text-5xl text-center">About Me</h2>
-    <h2 className="text-4xl text-white flex gap-1">
+    <h2 className="text-3xl text-white flex gap-1">
       <span>Hello I&apos;m</span>
       <span className="font-semibold text-gradient-purple">@nelsonfrz</span>
       <span>!</span>
     </h2>
     <Image className="select-none" width={160} height={160}  src="/man-technologist.png" alt="Man Technologist Emoji" />
-    <p className="text-white max-w-sm text-center text-[16px] text-gradient-radial-white">I&apos;m a 15 year old Fullstack Web Developer located in Germany. Ocassionally I write articles here about my passions e.g. Web Development. Additionally I’m a full-time student at a high school.</p>
+    <p className="text-white max-w-[330px] font-semibold text-center text-[16px] text-gradient-radial-white">I&apos;m a 15 year old Fullstack Web Developer located in Germany. Ocassionally I write articles here about my passions e.g. Web Development. Additionally I’m a full-time student at a high school.</p>
     <ul className="flex items-center justify-around w-52">
       <li className="hover:cursor-pointer" title="1051087527127285830">
         <a href="https://discordapp.com/users/1051087527127285830" target="_blank" rel="noreferrer">

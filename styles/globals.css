@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
-}
-
 ::-moz-selection {
   background: #7a78ff85;
 }
@@ -24,6 +19,59 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-purple-animated {
+  text-align: center;
+  
+  background: -webkit-linear-gradient(to left, 
+    #8886ff 0%, 
+    #7B78FF 10%, 
+    #716ff8 20%, 
+    #5a58d6 30%, 
+    #4F4DC1 40%, 
+    #403fa5 50%, 
+    #4F4DC1 60%, 
+    #5a58d6 70%, 
+    #716ff8 80%,
+    #7B78FF 90%,
+    #8886ff 100%
+    );
+  background: linear-gradient(to left, 
+    #8886ff 0%, 
+    #7B78FF 10%, 
+    #716ff8 20%, 
+    #5a58d6 30%, 
+    #4F4DC1 40%, 
+    #403fa5 50%, 
+    #4F4DC1 60%, 
+    #5a58d6 70%, 
+    #716ff8 80%,
+    #7B78FF 90%,
+    #8886ff 100%
+    );
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: gradientpurple 2s linear infinite;
+
+}
+
+@keyframes gradientpurple {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@-webkit-keyframes gradientpurple {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .bg-gradient-purple {

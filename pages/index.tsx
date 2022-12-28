@@ -38,9 +38,9 @@ export default function Home({ articles, projects }: HomeProps) {
     </Head>
     <Layout>
       <section className="text-center my-[200px]">
-        <h1 className="text-[64px] font-black leading-none p-2 max-lg:text-[42px]">
+        <h1 className="text-[100px] font-black leading-none p-2 max-lg:text-[80px] max-sm:text-[48px]">
           <span className="text-gradient-black">Hello! I&apos;m a</span> <br />
-          <span className="text-gradient-purple">Fullstack Web Developer</span> <br />
+          <span className="text-gradient-purple-animated">Fullstack Web Developer</span> <br />
         </h1>
         <p className="max-w-2xl mx-auto text-[16px] font-normal text-[#666666]">I&apos;m a 15 year old boy located in Germany with a passion for Web Development. Ocassionally I write articles about Software Engineering, Web Development and anything else.</p>
         <LinkButton color="purple" className="mt-4 mr-2" url="/articles">Read Articles</LinkButton>
