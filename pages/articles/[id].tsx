@@ -12,6 +12,7 @@ import WaveUp from "../../components/WaveUp";
 export default function Article({ article, articles }: { article: Article, articles: Article[] }) {
   return (<>
     <Head>
+      <title>{article.title}</title>
       <meta name="title" content={article.title} />
       <meta name="description" content={article.description} />
 
