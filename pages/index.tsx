@@ -22,7 +22,7 @@ export default function Home({ articles, projects }: HomeProps) {
     <Head>
       <title>@nelsonfrz - Home</title>
       <meta name="title" content="@nelsonfrz - Home" />
-      <meta name="description" content="I&apos;m a 15 year old boy located in Germany with a passion for Web Development. Ocassionally I write articles about Software Engineering, Web Development and anything else." />
+      <meta name="description" content="I&apos;m a Fullstack Web Developer located in Germany. Ocassionally I write articles about Software Engineering, Web Development and anything else." />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://nelsonfrz.vercel.app/" />
