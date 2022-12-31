@@ -9,7 +9,7 @@ export default function AboutMe({ className }: { className?: string }) {
       <span>!</span>
     </h2>
     <Image className="select-none" width={160} height={160}  src="/man-technologist.png" alt="Man Technologist Emoji" />
-    <p className="text-white max-w-[330px] font-semibold text-center text-[16px] text-gradient-radial-white">I&apos;m a 15 year old Fullstack Web Developer located in Germany. Ocassionally I write articles here about my passions e.g. Web Development. Additionally I’m a full-time student at a high school.</p>
+    <p className="text-white max-w-[330px] font-semibold text-center text-[16px] text-gradient-radial-white">I&apos;m a Fullstack Web Developer located in Germany. Ocassionally I write articles here about my passions e.g. Web Development. Additionally I’m a full-time student at a high school.</p>
     <ul className="flex items-center justify-around w-52">
       <li className="hover:cursor-pointer" title="1051087527127285830">
         <a href="https://discordapp.com/users/1051087527127285830" target="_blank" rel="noreferrer">
