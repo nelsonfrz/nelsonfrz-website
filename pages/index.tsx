@@ -33,7 +33,7 @@ export default function Home({ articles, projects }: HomeProps) {
       <meta property="twitter:card" content="summary_large_image"/>
       <meta property="twitter:url" content="https://nelsonfrz.vercel.app/"/>
       <meta property="twitter:title" content="@nelsonfrz - Home"/>
-      <meta property="twitter:description" content="I&apos;m a 15 year old boy located in Germany with a passion for Software Engineering. Ocassionally I write articles about Software Engineering, Web Development and anything else."/>
+      <meta property="twitter:description" content="I&apos;m a 16 year old boy located in Germany with a passion for Software Engineering. Ocassionally I write articles about Software Engineering, Web Development and anything else."/>
       <meta property="twitter:image" content="https://i.postimg.cc/ZYVMxRQF/image.png"></meta>
     </Head>
     <Layout>
@@ -42,7 +42,7 @@ export default function Home({ articles, projects }: HomeProps) {
           <span className="text-gradient-black">Hello! I&apos;m a</span> <br />
           <span className="text-gradient-purple-animated">Software Engineer</span> <br />
         </h1>
-        <p className="max-w-2xl mx-auto text-[16px] font-normal text-[#666666]">I&apos;m a 15 year old boy located in Germany with a passion for Software Engineering. Ocassionally I write articles about Software Engineering, Web Development and anything else.</p>
+        <p className="max-w-2xl mx-auto text-[16px] font-normal text-[#666666]">I&apos;m a 16 year old boy located in Germany with a passion for Software Engineering. Ocassionally I write articles about Software Engineering, Web Development and anything else.</p>
         <LinkButton color="purple" className="mt-4 mr-2" url="/articles">Read Articles</LinkButton>
         <LinkButton color="white" className="mt-4 ml-2" url="/projects">View Projects</LinkButton>
       </section>
