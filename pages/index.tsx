@@ -27,7 +27,7 @@ export default function Home({ articles, projects }: HomeProps) {
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://nelsonfrz.vercel.app/" />
       <meta property="og:title" content="@nelsonfrz - Home" /> 
-      <meta property="og:description" content="I&apos;m a 15 year old boy located in Germany with a passion for Software Engineering. Ocassionally I write articles about Software Engineering, Web Development and anything else." />
+      <meta property="og:description" content="I&apos;m a 16 year old boy located in Germany with a passion for Software Engineering. Ocassionally I write articles about Software Engineering, Web Development and anything else." />
       <meta property="og:image" content="https://i.postimg.cc/ZYVMxRQF/image.png" />
 
       <meta property="twitter:card" content="summary_large_image"/>
