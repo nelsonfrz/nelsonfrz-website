@@ -17,8 +17,7 @@ So, what is this article about? Honestly, not much. I just wanted to give a brie
 
 ## About Me
 
-As for who I am, I am just a typical programmer. I love developing software and websites like the one *you are reading this on*. You may have seen my [Home page](/) or [About Me page](/about) and already now that I'm 15 years old and live in Germany. 
-
+As for who I am, I am just a typical programmer. I love developing software and websites like the one *you are reading this on*.
 
 ## The Future of this Website
 In terms of what you can expect from my future articles, I plan on writing about a wide range of topics including Fullstack Web Development, Software Engineering, and anything else that I want to write about or that I feel would be beneficial for others to read about.
